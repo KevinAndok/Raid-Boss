@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6edb81c9cfe62f94bb8ebc94fd3681d0, type: 3}
+  m_Name: Swap Position
+  m_EditorClassIdentifier: 
+  spellIcon: {fileID: 21300000, guid: e99a4bd75765f904c8a3c8433ea041a7, type: 3}
+  spellName: Swap Position
+  description: Swap position with a target ally
+  cooldown: 30
+  range: 10
+  manacost: 75
+  castTime: 0
+  requireTarget: 1
+  canBeCanceled: 0
+  useRange: 1
+  dontCancelAttack: 1
+  canTargetDead: 1
+  canTargetLiving: 1
+  targetEnemies: 1
+  targetAllies: 1
+  targetGround: 0

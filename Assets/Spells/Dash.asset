@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34467e28d9c4b5c4b8080dcc61672c89, type: 3}
+  m_Name: Dash
+  m_EditorClassIdentifier: 
+  spellIcon: {fileID: 21300000, guid: df4bf067577de5a44932df5ad74a8c9e, type: 3}
+  spellName: Dash
+  description: Dash in the mouse direction
+  cooldown: 5
+  range: -1
+  manacost: 10
+  castTime: 0
+  requireTarget: 0
+  canBeCanceled: 0
+  useRange: 0
+  dontCancelAttack: 0
+  canTargetDead: 1
+  canTargetLiving: 1
+  targetEnemies: 0
+  targetAllies: 0
+  targetGround: 1
+  jumpTime: 0.25
+  jumpSpeed: 10

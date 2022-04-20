@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f852e10e32cbfde4f814f86faa85d23f, type: 3}
+  m_Name: Summon Pet
+  m_EditorClassIdentifier: 
+  spellIcon: {fileID: 21300000, guid: 4ec8f50912697874a949125cbb14b4e5, type: 3}
+  spellName: Summon Pet
+  description: Summon a pet to fight for you, it can't be controlled and only attacks
+    its target
+  cooldown: 25
+  range: 5
+  manacost: 50
+  castTime: 2
+  requireTarget: 1
+  canBeCanceled: 1
+  useRange: 1
+  dontCancelAttack: 1
+  canTargetDead: 0
+  canTargetLiving: 1
+  targetEnemies: 1
+  targetAllies: 0
+  targetGround: 0
+  petPrefab: {fileID: 7905093672620573689, guid: 7dda89bdfd84eca40a0a5fa14340ddc0, type: 3}

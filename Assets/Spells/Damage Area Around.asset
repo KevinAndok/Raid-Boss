@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8ee4ec1cf53b1341b298d103d37ab8b, type: 3}
+  m_Name: Damage Area Around
+  m_EditorClassIdentifier: 
+  spellIcon: {fileID: 21300000, guid: 6470ae6c10aac9a45a9f93061c5016cb, type: 3}
+  spellName: Damage Area Around
+  description: Damage enemies around the caster every second (Chanelling)
+  cooldown: 20
+  range: 0
+  manacost: 200
+  castTime: 3
+  requireTarget: 0
+  canBeCanceled: 1
+  useRange: 0
+  dontCancelAttack: 0
+  canTargetDead: 0
+  canTargetLiving: 0
+  targetEnemies: 1
+  targetAllies: 0
+  targetGround: 1
+  distance: 4
+  damagePerTick: 250
